@@ -1,0 +1,80 @@
+html
+{ height: 100%;}
+
+*
+{ margin: 0;
+  padding: 0;}
+
+body
+{ font: normal .80em 'trebuchet ms', arial, sans-serif;
+  background: #F0EFE2 url(background.png) repeat;
+  color: #000;}
+
+p
+{ padding: 0 0 20px 0;
+  line-height: 1.7em;}
+
+h1 
+{ font: normal 225% 'century gothic', arial, sans-serif;
+  color: #FFF;
+  margin: 0 0 2px 0;
+  padding: 15px 0px 0px 15px;}
+
+h2
+{ font: normal 125% 'century gothic', arial, sans-serif;
+  color: #FFF;
+  margin: 0 0 5px 0;
+  padding: 0px 0px 20px 20px;}
+
+h3
+{ font: normal 175% 'century gothic', arial, sans-serif;
+  margin: 0 0 15px 0;
+  padding: 15px 0px 5px 0px;}
+
+#main, #menubar, #site_content
+{ margin-left: auto; 
+  margin-right: auto;}
+
+#menubar
+{ width: 898px;
+  height: 52px;
+  padding: 0px 0px 40px 0px;
+  background: #000;} 
+
+ul#menu, ul#menu li
+{ float: left;
+  margin: 0; 
+  padding: 0;}
+
+ul#menu li
+{ list-style: none;}
+
+ul#menu li a
+{ letter-spacing: 0.1em;
+  font: normal 100% arial, sans-serif;
+  display: block; 
+  float: left; 
+  height: 17px;
+  margin: 10px 0 0 10px;
+  padding: 9px 26px 6px 26px;
+  text-align: center;
+  color: #FFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: transparent;} 
+
+ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
+{ color: #FFF;
+  background: transparent url(transparent_light.png) repeat;}
+
+#site_content
+{ width: 854px;
+  overflow: hidden;
+  margin: 0 auto 0 auto;
+  padding: 0 24px 20px 20px;
+  background: #FFF;} 
+
+
+
+
+
